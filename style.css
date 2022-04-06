@@ -287,3 +287,14 @@ transform: translateY(-50%);
 .project:last-child{
     margin-bottom: 20px;
 }
+
+/*FOOTER*/
+
+footer{
+    background-color: #242424;
+}
+
+.juicy{
+    width: 100px;
+    height: 100px;
+}
