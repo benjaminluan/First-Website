@@ -6,6 +6,10 @@
     font-family: Inter, system-ui;
 }
 
+main{
+    padding: 32px;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -302,6 +306,7 @@ h4{
 .step__heading{
     font-size: 48px;
     margin-top: 16px;
+    font-weight:700;
 }
 
 .step__div{
@@ -311,4 +316,219 @@ h4{
 
 .quality__img--wrapper{
     margin: auto auto;
+}
+
+/* value */
+
+.value{
+    display: flex;
+}
+
+.values{
+    margin-top: 32px;
+    display: flex;
+}
+
+.value__para{
+    margin-top: 16px;
+}
+
+.value__heading{
+    margin-left:8px ;
+    margin: auto 0;
+}
+
+.values__div{
+    padding:32px 64px 32px 0;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.value__img--wrapper{
+    width: 50%;
+}
+.value__img{
+    width: 100%;
+    margin: auto auto;
+}
+
+.value--wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.values__para{
+  margin-top: 32px;  
+}
+
+.value__btn{
+    margin-top: 32px
+}
+
+.sign--wrapper1{
+    background-color: #9ae6b4;
+    padding: 8px;
+    border-radius: 99999px;
+    margin-right: 8px;
+    width: 36px;
+    text-align: center;
+}
+
+.sign--wrapper2{
+    background-color: #feb2b2;
+    padding: 8px;
+    border-radius: 99999px;
+    margin-right: 8px;
+    width: 36px;
+    text-align: center;
+}
+
+/* Pricings*/
+
+.row__price{
+    display:flex;
+    flex-direction: column;
+    padding: 92px 0;
+}
+
+.pricing__heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__para{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+    width: 45%;
+}
+
+.pricings__container{
+    display: flex;
+    margin-top: 56px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.pricing__info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.pricing__top{
+    border: 1px solid rgb(0, 1, 0,.3) ;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.price__heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.price__cost{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.price__monthly{
+    color: #a0aec0;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.pricing__highlight{
+    height: 10px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pricing__middle{
+    border: 1px solid rgb(0, 1, 0,.3);
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.price__feature {
+    margin-top: 20px;
+    color:#a0aec0;
+}
+
+.feature__middle{
+    color:white;
+    margin-top: 20px;
+}
+
+.pricing__bottom{
+    border: 1px solid rgb(0, 1, 0,.3) ;
+    text-align: center;
+}
+
+.price__button--personal{
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    width: 45%;
+    height: 56px;
+    margin: 32px;
+    border:none;
+    border-radius: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+.price__company{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.price__company-middle{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.middle{
+    color: white;
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 10px;
+}
+
+.pricing__middle-middle{
+    border: 1px solid rgb(0, 1, 0,.3);
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.pricing__highlight-middle{
+    height: 10px;
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.middle__button{
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
 }
