@@ -20,6 +20,7 @@ header{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 p{
@@ -490,6 +491,29 @@ h4{
     font-weight: bold;
 }
 
+.price__button--enterprise{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    width: 45%;
+    height: 56px;
+    margin: 32px;
+    border:none;
+    border-radius: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+.price__button--middle{
+    background-color: white;
+    width: 45%;
+    height: 56px;
+    margin: 32px;
+    border:none;
+    border-radius: 48px;
+    color: #6415FF;;
+    font-weight: bold;
+
+}
+
 .price__company{
     font-size: 20px;
     color: black;
@@ -527,8 +551,88 @@ h4{
     border-top-right-radius: 10px;
 }
 
+.pricing__highlight-personal{
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 10px;
+}
+
 .middle__button{
     border-bottom: none;
     border-right: none;
     border-left: none;
+}
+
+/* Footer */
+
+.footer__row{
+    display: flex;
+    flex-direction: column;
+    background-color:#6415FF;
+    padding: 80px;
+    margin-top: 48px;
+}
+
+h7{
+    font-size: 16px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.top{
+    padding-top: 16px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.links--wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    display: flex;
+}
+
+.footer__img--wrapper{
+    height: 32px;
+}
+.footer__img{
+    height: 100%;
+}
+
+
+.social{
+    display: flex;
+}
+
+
+.divider{
+    margin: 48px 0;
+    border: 2px solid rgba(1, 1, 1,.1);
+    width: 100%;
+}
+
+.social__figures{
+    background-color: white;
+    padding: 8px;
+    width: 36px;
+    text-align: center;
+    border-radius: 99999px;
+}
+
+.right{
+    margin-right: 16px;
 }
