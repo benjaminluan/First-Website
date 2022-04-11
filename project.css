@@ -600,10 +600,19 @@ h7{
 .footer__div{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer__logo{
     display: flex;
+    align-items: center;
+}
+
+h8{
+    color:white;
+    font-weight: bold;
+    margin-left: 8px;
+    font-size: 24px;
 }
 
 .footer__img--wrapper{
@@ -635,4 +644,9 @@ h7{
 
 .right{
     margin-right: 16px;
+}
+
+.copyright{
+    color: #CBD5E0;
+    text-align: center;
 }
